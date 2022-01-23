@@ -10,11 +10,11 @@ Pod::Spec.new do |spec|
   DESC
 
   spec.homepage     = "https://github.com/tobinP/ios-pod"
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
-
+  spec.license      = { :type => "MIT" }
   spec.author       = "Tobin"
   spec.source       = { :git => "https://github.com/tobinP/ios-pod.git", :branch => "main" }
 
+  spec.ios.deployment_target = '10.0'
   spec.source_files  = "Classes", "iOS-Pod/**/*.{h,m}"
   # spec.public_header_files = "Classes/**/*.h"
 
