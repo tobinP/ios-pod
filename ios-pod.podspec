@@ -4,12 +4,11 @@ Pod::Spec.new do |spec|
 
   spec.name         = "ios-pod"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of ios-pod."
-  spec.description  = <<-DESC
-                   DESC
+  spec.summary      = "Just a test."
+  spec.description  = <<-DESC test description DESC
 
-  spec.homepage     = "http://EXAMPLE/ios-pod"
-  spec.license      = "MIT (example)"
+  spec.homepage     = "https://github.com/tobinP/ios-pod"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
   spec.author       = "Tobin"
   spec.source       = { :git => "https://github.com/tobinP/ios-pod.git", :tag => "#{spec.version}" }
