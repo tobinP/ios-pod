@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT (example)"
 
   spec.author       = "Tobin"
-  spec.source       = { :git => "http://EXAMPLE/ios-pod.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/tobinP/ios-pod.git", :tag => "#{spec.version}" }
 
   spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
