@@ -5,7 +5,9 @@ Pod::Spec.new do |spec|
   spec.name         = "ios-pod"
   spec.version      = "0.0.1"
   spec.summary      = "Just a test."
-  spec.description  = <<-DESC test description DESC
+  spec.description  = <<-DESC 
+    test description 
+  DESC
 
   spec.homepage     = "https://github.com/tobinP/ios-pod"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
