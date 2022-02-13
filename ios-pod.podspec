@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ios-pod"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Just a test."
   spec.description  = <<-DESC 
     test description 
