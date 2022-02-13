@@ -14,6 +14,7 @@ Pod::Spec.new do |spec|
   spec.author       = "Tobin"
   spec.source       = { :git => "https://github.com/tobinP/ios-pod.git", :branch => "main" }
 
+  spec.dependency = 'AFNetworking'
   spec.ios.deployment_target = '10.0'
   spec.source_files  = "Classes", "iOS-Pod/**/*.{h,m}"
   # spec.public_header_files = "Classes/**/*.h"
