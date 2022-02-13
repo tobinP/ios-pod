@@ -13,6 +13,7 @@
 
 @interface Class1 : NSObject
 
-+(void)doStuff;
++ (void)doStuff;
++ (void)req;
 
 @end
